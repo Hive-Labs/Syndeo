@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.syndeo.www.syndeo"
+        applicationId "com.syndeo"
         minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
@@ -25,4 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:support-v4:24.0.0'
     compile 'com.android.support:design:24.0.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.google.android.gms:play-services:9.0.2'
 }
